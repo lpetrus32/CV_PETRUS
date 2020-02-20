@@ -14,7 +14,6 @@ p, li{
 .block{
     opacity: 0;
 }
-
 .block:hover{
     opacity: 1;
     transition-duration: 0.4s;
@@ -35,9 +34,19 @@ p, li{
     background-color: lightgray;
 }
 
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color:blue;
+}
+
 .img-circle{
     border-radius: 50%;
     width: 15%;
+}
+.img-circle:hover{
+    width: 18%;
+    box-shadow: 0px 0px 70px black;
 }
 
 .bold{
@@ -58,12 +67,10 @@ p, li{
     display: inline-block;
     font-size: 16px;
 }
-
 .button:hover {
     background-color: rgb(12, 163, 163);
     transition-duration: 0.4s;
 }
-
 .button:active {
     background-color: #4050dd;
     transform:translateY(4px);
