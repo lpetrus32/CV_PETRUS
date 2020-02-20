@@ -1,1 +1,95 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightsteelblue;
+}
 
+p, li{
+    font-size: 17px;
+}
+
+.block{
+    opacity: 0;
+}
+
+.block:hover{
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+.menu{
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    border-style: solid;
+    border-color: grey;
+    text-align: right;
+    position: fixed;
+    top: 3px;
+    right: 3px;
+    color: white;
+    background-color: lightgray;
+}
+
+.img-circle{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.button{
+    background-color: rgb(7, 126, 126);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: rgb(12, 163, 163);
+    transition-duration: 0.4s;
+}
+
+.button:active {
+    background-color: #4050dd;
+    transform:translateY(4px);
+}
+
+.name{
+    letter-spacing: 2rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-style: double;
+    font-weight: bold;
+    font-size: 50px;
+    color:darkblue;
+    text-align: center;
+    background-size: 20%;
+}
+
+h2{
+    color: darkgreen;
+    border-bottom-style: groove;
+}
+
+.box{
+    background-color:whitesmoke;
+    border-radius:0px 0px 15px 0px;
+    padding : 2%;
+    margin-bottom: 2%;
+    box-shadow: 10px 5px 5px grey;
+}
