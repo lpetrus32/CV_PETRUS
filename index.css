@@ -101,6 +101,16 @@ h2{
     box-shadow: 10px 5px 5px grey;
 }
 
-.separateur{
-    border-bottom: 1px solid;
-}
+table {
+ border-width:1px; 
+ border-style:solid; 
+ border-color:darkgrey;
+ width:50%;
+ }
+
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:red;
+ width:50%;
+ }
