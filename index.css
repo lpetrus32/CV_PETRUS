@@ -4,7 +4,7 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightsteelblue;
+    background-color: #333;
 }
 
 p, li{
@@ -20,24 +20,16 @@ p, li{
 }
 
 .menu{
-    padding-left: 4px;
-    padding-bottom: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    border-style: solid;
-    border-color: grey;
     text-align: right;
     position: fixed;
     top: 3px;
     right: 3px;
-    color: white;
-    background-color: lightgray;
 }
 
 .link{
     text-decoration: none;
     font-weight: bold;
-    color:blue;
+    color: #ddd;
 }
 
 .img-circle{
@@ -46,7 +38,7 @@ p, li{
 }
 .img-circle:hover{
     width: 18%;
-    box-shadow: 0px 0px 70px black;
+    box-shadow: 0px 0px 70px #ddd;
 }
 
 .bold{
@@ -83,27 +75,49 @@ p, li{
     border-style: double;
     font-weight: bold;
     font-size: 50px;
-    color:darkblue;
+    color:#ddd;
     text-align: center;
     background-size: 20%;
 }
 
 h2{
-    color: darkgreen;
+    color: #333;
     border-bottom-style: groove;
 }
 
 .box{
     background-color:whitesmoke;
-    border-radius:0px 0px 15px 0px;
     padding : 2%;
     margin-bottom: 2%;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .sep{
- padding: 5%;
  border-bottom: 1px solid darkgray;
- }
+}
 
+.table1{
+    border-collapse: collapse;
+    margin: 2%;
+    width: 100%;
+}
 
+td{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.backmenu1{
+    margin : 0px;
+    padding:5%;
+    background-color: darkgray;
+}
+.backmenu2{
+    margin: 0px;
+    padding: 5%;
+    background-color: gray;
+}
+
+.backmenu1:hover, .backmenu2:hover{
+    background-color: rgb(100, 100, 100);
+}
