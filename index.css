@@ -110,14 +110,14 @@ td{
 .backmenu1{
     margin : 0px;
     padding:5%;
-    background-color: darkgray;
+    background-color: rgb(116, 115, 115);
 }
 .backmenu2{
     margin: 0px;
     padding: 5%;
-    background-color: gray;
+    background-color: rgb(88, 88, 88);
 }
 
 .backmenu1:hover, .backmenu2:hover{
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(131, 131, 131);
 }
