@@ -101,16 +101,8 @@ h2{
     box-shadow: 10px 5px 5px grey;
 }
 
-table {
- border-width:1px; 
- border-style:solid; 
- border-color:darkgrey;
- width:50%;
+td{
+ border-bottom: 1px solid darkgray;
  }
 
-td { 
- border-width:1px;
- border-style:solid; 
- border-color:red;
- width:50%;
- }
+
